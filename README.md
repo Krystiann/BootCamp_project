@@ -1,28 +1,29 @@
 ## Detection of emotions on the face with Keras module.
-#
 
-Celem projektu jest nauczenie głebokiej sieci neuronowej rozpoznawać 6 podstawowych emocji:
+
+The aim of the project is to teach a deep neural network to recognize 6 basic emotions:
 - Angry, Fear, Happy, Neutral, Sad, Surprise
 
-Moja sieć nauronowa będzie uczyła sie wykrywać emocje na podstawie obrazków zawierających twarze różnych postaci oraz ludzi. Do uczenia wykorzystam popularny zbiór danych FER2013.
+My neural network will learn to detect emotions from pictures of different characters and people's faces. I will use a popular data set for training FER2013.
 
 ![Picture error](https://github.com/Krystiann/BootCamp_project/blob/main/pictures_of_emotions/face%20example1.png)
 
-Oryginalnie w zbiorze danych znajduje się 7 emocji. Niestety dane zawierające 'Disgust' są bardzo niezbalansowane. Dlatego też zdecydowałem się połączyć 'Disgust' z 'Angry'. Obrazy tych dówch etykiet są ciężko odróżnialne nawet dla mnie.
+Originally there are 7 emotions in the dataset. Unfortunately, the data containing 'Disgust' is very unbalanced. That's why I decided to combine 'Disgust' with 'Angry'. The images of these two labels are hard to distinguish even for me.
 
-Finalnie moja sieć neuronowa jest wstanie wykrywać poszczególne emocje w czasie rzeczywistym przy pomocy kamerki internetowej.
+Finally, my neural network is able to detect individual emotions in real time using a webcam.
 
-## Skuteczność
+## Effectiveness
 
-Skuteczność nauczonej sieci to okolo 52 %. Biorąc pod uwagę trudne dane oraz bardzo długi czas uczenia się sieci spowodowany małą mocą obliczeniową moim zdaniem sieć spełnia swoje zadanie.
+The effectiveness of the learned network is around 52 %. Taking into account the difficult data and the very long learning time of the network caused by low computing power, in my opinion, the network fulfills its task.
 
 ![Picture error](https://github.com/Krystiann/BootCamp_project/blob/main/pictures_of_emotions/result1.png)
 
-## Rezultat
+## Result
 
-Poniżej widać że moja sieć nauronowa spełnia swoje zadanie całkiem nieźle.
-#
+Below you can see that my neural network does its job quite well.
 
 
 ![Picture error](https://github.com/Krystiann/BootCamp_project/blob/main/pictures_of_emotions/merge2.png)
 ![Picture error](https://github.com/Krystiann/BootCamp_project/blob/main/pictures_of_emotions/merge3.png)
+![Picture error](https://github.com/Krystiann/BootCamp_project/blob/main/pictures_of_emotions/newmerge1.png)
+
